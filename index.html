@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Méthodes de paiement</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="add-card">
+    <h2>Payment method</h2>
+    <button id="add-card-btn">+ Add Card</button>
+  </div>
+  <p>Change how you pay for your purchases.</p>
+
+  <div id="card-list">
+    <!-- Existing cards will be displayed here -->
+  </div>
+
+  <div id="credit-card-form" class="credit-card-form hidden">
+    <h3>Credit Card</h3>
+    <div class="card-detail">
+      <img src="masteracrt.png" alt="Visa" class="card-image active" id="image1">
+      <img src="visacard.png" alt="Mastercard" class="card-image" id="image2">
+    </div>
+  
+    <div class="card-type">
+      <img src="visas.png" alt="Visa" id="visa-icon">
+      <img src="master.png" alt="Mastercard" id="mastercard-icon">
+    </div>
+  
+    <button id="bcancel-btn" class="ccabutton cca">Cancel</button>
+  </div>
+
+
+
+</div>
+
+<script src="scritp.js"></script>
+
+</body>
+</html>
